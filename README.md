@@ -1,5 +1,7 @@
 # Mastercard QA Add-On
 
+🌐 **Live site:** https://isaac-maya.github.io/transaction-qa-evidence/
+
 A compact transaction-QA evidence sample for the Mastercard Mexico QA Analyst conversation. The pack is small on purpose: validation rigor, traceability, and manager-readable defect framing — not domain claims.
 
 ## What It Demonstrates In 30 Seconds

@@ -1,0 +1,53 @@
+site_name: Transaction QA Evidence
+site_description: Six-dimension transaction QA evidence pack — financial consistency vs operational consistency.
+site_author: Isaac Maya
+site_url: https://isaac-maya.github.io/transaction-qa-evidence/
+repo_url: https://github.com/isaac-maya/transaction-qa-evidence
+repo_name: isaac-maya/transaction-qa-evidence
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - QA Matrix: qa_matrix.md
+  - Failure Trace: sample_failure_trace.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/isaac-maya
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/isaac-maya
